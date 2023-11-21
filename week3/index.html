@@ -29,6 +29,55 @@
         </div>
     </section>
 
+    <!-- New Section for Reservation Form -->
+    <section class="row row-content">
+        <div class="col-sm-9 mx-auto">
+            <!-- Bootstrap Card for Reservation Form -->
+            <div class="card">
+                <!-- Card Header -->
+                <h3 class="card-header bg-info text-white">Reserve a Campsite</h3>
+    
+                <!-- Card Body -->
+                <div class="card-body">
+                    <!-- Form with Three Rows -->
+                    <form>
+                        <!-- Row 1: Number of Campers -->
+                        <div class="row mb-3">
+                            <label for="numCampers" class="col-sm-6 col-form-label">Number of Campers</label>
+                            <div class="col">
+                                <select name="numCampers" id="numCampers" class="form-control">
+                                    <option>Select...</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                </select>
+                            </div>
+                        </div>
+    
+                        <!-- Row 2: Date -->
+                        <div class="row mb-3">
+                            <label for="date" class="col-sm-6 col-form-label">Date</label>
+                            <div class="col">
+                                <input type="date" id="date" name="date" placeholder="mm/dd/yyyy" class="form-control">
+                            </div>
+                        </div>
+    
+                        <!-- Row 3: Search Button -->
+                        <div class="row">
+                            <div class="col">
+                                <button type="submit" class="btn btn-primary">Search</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     
 </body>
 </html>
