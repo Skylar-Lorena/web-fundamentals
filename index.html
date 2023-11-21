@@ -9,6 +9,15 @@
     <h1>Enter Your Details For Our Dating Website</h1>
     <form action="https://us-central1-nucamp-production.cloudfunctions.net/post/formdata" method="post"
         enctype="multipart/form-data">
+
+        <fieldset>
+            <legend>Your Face</legend>
+            <div>
+                <label for="avatar">Upload Your Image:</label>
+                <input type="file" id="avatar" name="avatar" required />
+            </div>
+            <p>Image Preview: <img id="preview" width="500" alt=""/></p>
+        </fieldset>
     
 </body>
 </html>
